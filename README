@@ -1,6 +1,6 @@
 Simple Distributed File System
-We desined a SDFS which is tolerant up to two machine failures at a time. SDFS
-is a flat file system with no concept of directions. 
+We designed a SDFS which is tolerant up to two machine failures at a time. 
+SDFS is a flat file system with no concept of directions. 
 The allowed file ops include: 
  1). put localfilename sdfsfilename
  2). get sdfsfilename localfilename(fetches to local dir)
@@ -10,7 +10,7 @@ The allowed file ops include:
  introducers in membership folder according to your own ip. And change the 
  original master in the LeaderElection.java according to your ips. 
  Then, you can use the command - mvn assembly:assembly to package our project 
- into an executeable jar file - mp3.jar. Then, use java -jar mp3.jar to run.
+ into an executeable jar file - FileSystem.jar. Then, use java -jar FileSystem.jar to run.
  Enter 'join' to join the system first
  After join in the sytem, you can choose the following action: 
  Enter 'membership' to modify the membership group
